@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAA12CF22019EAFF00A2769C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA12CF12019EAFF00A2769C /* AppDelegate.swift */; };
+		FAA12CF42019EAFF00A2769C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA12CF32019EAFF00A2769C /* ViewController.swift */; };
+		FAA12CF72019EAFF00A2769C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA12CF52019EAFF00A2769C /* Main.storyboard */; };
+		FAA12CF92019EAFF00A2769C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA12CF82019EAFF00A2769C /* Assets.xcassets */; };
+		FAA12CFC2019EAFF00A2769C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA12CFA2019EAFF00A2769C /* LaunchScreen.storyboard */; };
+		FAA12D072019EAFF00A2769C /* Konleng_Real_EstateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA12D062019EAFF00A2769C /* Konleng_Real_EstateTests.swift */; };
+		FAA12D122019EAFF00A2769C /* Konleng_Real_EstateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA12D112019EAFF00A2769C /* Konleng_Real_EstateUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAA12D032019EAFF00A2769C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAA12CE62019EAFF00A2769C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAA12CED2019EAFF00A2769C;
+			remoteInfo = "Konleng Real Estate";
+		};
+		FAA12D0E2019EAFF00A2769C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAA12CE62019EAFF00A2769C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAA12CED2019EAFF00A2769C;
+			remoteInfo = "Konleng Real Estate";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAA12CEE2019EAFF00A2769C /* Konleng Real Estate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Konleng Real Estate.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA12CF12019EAFF00A2769C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAA12CF32019EAFF00A2769C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAA12CF62019EAFF00A2769C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAA12CF82019EAFF00A2769C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAA12CFB2019EAFF00A2769C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAA12CFD2019EAFF00A2769C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA12D022019EAFF00A2769C /* Konleng Real EstateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Konleng Real EstateTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA12D062019EAFF00A2769C /* Konleng_Real_EstateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Konleng_Real_EstateTests.swift; sourceTree = "<group>"; };
+		FAA12D082019EAFF00A2769C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA12D0D2019EAFF00A2769C /* Konleng Real EstateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Konleng Real EstateUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA12D112019EAFF00A2769C /* Konleng_Real_EstateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Konleng_Real_EstateUITests.swift; sourceTree = "<group>"; };
+		FAA12D132019EAFF00A2769C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAA12CEB2019EAFF00A2769C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA12CFF2019EAFF00A2769C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA12D0A2019EAFF00A2769C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAA12CE52019EAFF00A2769C = {
+			isa = PBXGroup;
+			children = (
+				FAA12CF02019EAFF00A2769C /* Konleng Real Estate */,
+				FAA12D052019EAFF00A2769C /* Konleng Real EstateTests */,
+				FAA12D102019EAFF00A2769C /* Konleng Real EstateUITests */,
+				FAA12CEF2019EAFF00A2769C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAA12CEF2019EAFF00A2769C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAA12CEE2019EAFF00A2769C /* Konleng Real Estate.app */,
+				FAA12D022019EAFF00A2769C /* Konleng Real EstateTests.xctest */,
+				FAA12D0D2019EAFF00A2769C /* Konleng Real EstateUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAA12CF02019EAFF00A2769C /* Konleng Real Estate */ = {
+			isa = PBXGroup;
+			children = (
+				FAA12CF12019EAFF00A2769C /* AppDelegate.swift */,
+				FAA12CF32019EAFF00A2769C /* ViewController.swift */,
+				FAA12CF52019EAFF00A2769C /* Main.storyboard */,
+				FAA12CF82019EAFF00A2769C /* Assets.xcassets */,
+				FAA12CFA2019EAFF00A2769C /* LaunchScreen.storyboard */,
+				FAA12CFD2019EAFF00A2769C /* Info.plist */,
+			);
+			path = "Konleng Real Estate";
+			sourceTree = "<group>";
+		};
+		FAA12D052019EAFF00A2769C /* Konleng Real EstateTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAA12D062019EAFF00A2769C /* Konleng_Real_EstateTests.swift */,
+				FAA12D082019EAFF00A2769C /* Info.plist */,
+			);
+			path = "Konleng Real EstateTests";
+			sourceTree = "<group>";
+		};
+		FAA12D102019EAFF00A2769C /* Konleng Real EstateUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAA12D112019EAFF00A2769C /* Konleng_Real_EstateUITests.swift */,
+				FAA12D132019EAFF00A2769C /* Info.plist */,
+			);
+			path = "Konleng Real EstateUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAA12CED2019EAFF00A2769C /* Konleng Real Estate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA12D162019EAFF00A2769C /* Build configuration list for PBXNativeTarget "Konleng Real Estate" */;
+			buildPhases = (
+				FAA12CEA2019EAFF00A2769C /* Sources */,
+				FAA12CEB2019EAFF00A2769C /* Frameworks */,
+				FAA12CEC2019EAFF00A2769C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Konleng Real Estate";
+			productName = "Konleng Real Estate";
+			productReference = FAA12CEE2019EAFF00A2769C /* Konleng Real Estate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAA12D012019EAFF00A2769C /* Konleng Real EstateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA12D192019EAFF00A2769C /* Build configuration list for PBXNativeTarget "Konleng Real EstateTests" */;
+			buildPhases = (
+				FAA12CFE2019EAFF00A2769C /* Sources */,
+				FAA12CFF2019EAFF00A2769C /* Frameworks */,
+				FAA12D002019EAFF00A2769C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAA12D042019EAFF00A2769C /* PBXTargetDependency */,
+			);
+			name = "Konleng Real EstateTests";
+			productName = "Konleng Real EstateTests";
+			productReference = FAA12D022019EAFF00A2769C /* Konleng Real EstateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAA12D0C2019EAFF00A2769C /* Konleng Real EstateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA12D1C2019EAFF00A2769C /* Build configuration list for PBXNativeTarget "Konleng Real EstateUITests" */;
+			buildPhases = (
+				FAA12D092019EAFF00A2769C /* Sources */,
+				FAA12D0A2019EAFF00A2769C /* Frameworks */,
+				FAA12D0B2019EAFF00A2769C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAA12D0F2019EAFF00A2769C /* PBXTargetDependency */,
+			);
+			name = "Konleng Real EstateUITests";
+			productName = "Konleng Real EstateUITests";
+			productReference = FAA12D0D2019EAFF00A2769C /* Konleng Real EstateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAA12CE62019EAFF00A2769C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Vicheanak;
+				TargetAttributes = {
+					FAA12CED2019EAFF00A2769C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					FAA12D012019EAFF00A2769C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FAA12CED2019EAFF00A2769C;
+					};
+					FAA12D0C2019EAFF00A2769C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FAA12CED2019EAFF00A2769C;
+					};
+				};
+			};
+			buildConfigurationList = FAA12CE92019EAFF00A2769C /* Build configuration list for PBXProject "Konleng Real Estate" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAA12CE52019EAFF00A2769C;
+			productRefGroup = FAA12CEF2019EAFF00A2769C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAA12CED2019EAFF00A2769C /* Konleng Real Estate */,
+				FAA12D012019EAFF00A2769C /* Konleng Real EstateTests */,
+				FAA12D0C2019EAFF00A2769C /* Konleng Real EstateUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAA12CEC2019EAFF00A2769C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA12CFC2019EAFF00A2769C /* LaunchScreen.storyboard in Resources */,
+				FAA12CF92019EAFF00A2769C /* Assets.xcassets in Resources */,
+				FAA12CF72019EAFF00A2769C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA12D002019EAFF00A2769C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA12D0B2019EAFF00A2769C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAA12CEA2019EAFF00A2769C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA12CF42019EAFF00A2769C /* ViewController.swift in Sources */,
+				FAA12CF22019EAFF00A2769C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA12CFE2019EAFF00A2769C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA12D072019EAFF00A2769C /* Konleng_Real_EstateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA12D092019EAFF00A2769C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA12D122019EAFF00A2769C /* Konleng_Real_EstateUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAA12D042019EAFF00A2769C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAA12CED2019EAFF00A2769C /* Konleng Real Estate */;
+			targetProxy = FAA12D032019EAFF00A2769C /* PBXContainerItemProxy */;
+		};
+		FAA12D0F2019EAFF00A2769C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAA12CED2019EAFF00A2769C /* Konleng Real Estate */;
+			targetProxy = FAA12D0E2019EAFF00A2769C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAA12CF52019EAFF00A2769C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAA12CF62019EAFF00A2769C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAA12CFA2019EAFF00A2769C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAA12CFB2019EAFF00A2769C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAA12D142019EAFF00A2769C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAA12D152019EAFF00A2769C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAA12D172019EAFF00A2769C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Konleng Real Estate/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vicheanak.Konleng-Real-Estate";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAA12D182019EAFF00A2769C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Konleng Real Estate/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vicheanak.Konleng-Real-Estate";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FAA12D1A2019EAFF00A2769C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Konleng Real EstateTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vicheanak.Konleng-Real-EstateTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Konleng Real Estate.app/Konleng Real Estate";
+			};
+			name = Debug;
+		};
+		FAA12D1B2019EAFF00A2769C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Konleng Real EstateTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vicheanak.Konleng-Real-EstateTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Konleng Real Estate.app/Konleng Real Estate";
+			};
+			name = Release;
+		};
+		FAA12D1D2019EAFF00A2769C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Konleng Real EstateUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vicheanak.Konleng-Real-EstateUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Konleng Real Estate";
+			};
+			name = Debug;
+		};
+		FAA12D1E2019EAFF00A2769C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Konleng Real EstateUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vicheanak.Konleng-Real-EstateUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Konleng Real Estate";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAA12CE92019EAFF00A2769C /* Build configuration list for PBXProject "Konleng Real Estate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA12D142019EAFF00A2769C /* Debug */,
+				FAA12D152019EAFF00A2769C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAA12D162019EAFF00A2769C /* Build configuration list for PBXNativeTarget "Konleng Real Estate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA12D172019EAFF00A2769C /* Debug */,
+				FAA12D182019EAFF00A2769C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAA12D192019EAFF00A2769C /* Build configuration list for PBXNativeTarget "Konleng Real EstateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA12D1A2019EAFF00A2769C /* Debug */,
+				FAA12D1B2019EAFF00A2769C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAA12D1C2019EAFF00A2769C /* Build configuration list for PBXNativeTarget "Konleng Real EstateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA12D1D2019EAFF00A2769C /* Debug */,
+				FAA12D1E2019EAFF00A2769C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAA12CE62019EAFF00A2769C /* Project object */;
+}
