@@ -1,0 +1,15 @@
+PODS:
+  - Cluster (2.1.0)
+  - XLPagerTabStrip (8.0.0)
+
+DEPENDENCIES:
+  - Cluster
+  - XLPagerTabStrip (~> 8.0)
+
+SPEC CHECKSUMS:
+  Cluster: b1b363bb4b6991c73f5da2f4ab175fc7424f9900
+  XLPagerTabStrip: d1ab378af0923320ec0b5eab11d7b2f803d31261
+
+PODFILE CHECKSUM: aec07ab0a3ed6b5088ffc6ae33cf63920de7cadb
+
+COCOAPODS: 1.4.0

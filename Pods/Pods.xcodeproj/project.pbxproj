@@ -1,0 +1,1223 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01310980F9DDB7EB9FD591EDAD84B7D9 /* BarPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A443925D3A9D2AD3D673550876CB7E /* BarPagerTabStripViewController.swift */; };
+		0DF5471DB34DBC4EA71BF118FE20B06A /* Pods-Konleng Real EstateTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CDA8A5AD38915193B89CBC64957D01 /* Pods-Konleng Real EstateTests-dummy.m */; };
+		0F47D46A60A66AA9099E95505C3014D4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A3090C9D200F9D2E2836DA6B63F6DB /* Extensions.swift */; };
+		136BD7C769E3A9BB88F5DB3DC78FBB5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		1417D96A391943109D4FE497BBD52070 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		177CD08E2AB51FB5B1FFD879D34A59FF /* TwitterPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BF2CC7C9FBBE067F6AFE94A00DDBF2 /* TwitterPagerTabStripViewController.swift */; };
+		21A925CF41C00369602D4EB6F47B45AC /* FXPageControl.h in Headers */ = {isa = PBXBuildFile; fileRef = CBAA96EB1AF612A4DD85A50BD7EC6E63 /* FXPageControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3566FE62E38E1F718A142702FD551DF0 /* PagerTabStripError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F08CD30D32B9A3EA09752C6145FF96 /* PagerTabStripError.swift */; };
+		379E521BA2F9608804AE7A87A6860EF6 /* Pods-Konleng Real Estate-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE244C3D6DA73EA868CC0B2A5B22A06 /* Pods-Konleng Real Estate-dummy.m */; };
+		3968AFEF4B4ABBA21AA7EE07B579536C /* Pods-Konleng Real Estate-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ABF1F8E689C3A20096B754ABFADCC3E4 /* Pods-Konleng Real Estate-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53F9EEE009B6D2DBF748D49BB61AF0CE /* PagerTabStripBehaviour.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F2EFE077DABAD835532950642777CE /* PagerTabStripBehaviour.swift */; };
+		63D95C6305876BE190D29EF716E51D64 /* ButtonBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139867C42545317A267DB55B985F194F /* ButtonBarView.swift */; };
+		644FF73781C6D8BC7448B8A9C26B4485 /* SegmentedPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC259B7C52AEF7574DD569145C831FC /* SegmentedPagerTabStripViewController.swift */; };
+		6CD98FC405EB52E64150CFA798E7A426 /* PagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A90C951066F3958B926BDE41AC901BA /* PagerTabStripViewController.swift */; };
+		6E09A55E47EE384CA2AE9295254C6243 /* XLPagerTabStrip.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 51E0C3C3B9110CD241FC445DFE3C54B3 /* XLPagerTabStrip.bundle */; };
+		717A099C5464E41B3578B7F74E9FD1EF /* Cluster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4872872296A562C33EDCFEB95270C411 /* Cluster.swift */; };
+		719EFBAAE91E0166BC92CD23AE8076CF /* XLPagerTabStrip-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB5048145FB70BCA5E179DB534B48E9 /* XLPagerTabStrip-dummy.m */; };
+		7355B2D7FFDE22E3C699C0FC945095BF /* ButtonCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = B15EBE6A82C5DBDD3191668A98DE4FA7 /* ButtonCell.xib */; };
+		7BB4310C5973B3CB13F062FB118B15A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		7D5C0875776AB59BA519288C0298C8B3 /* QuadTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335A632BFF4F14A5B17321A508A94D83 /* QuadTree.swift */; };
+		80F6305913007B139416859838A511F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		8427314883AFC6549F4CCFABFF60D538 /* Pods-Konleng Real EstateUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BEF428C46519B134415283288D69993 /* Pods-Konleng Real EstateUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96487965049A80455622663CEFF0E813 /* XLPagerTabStrip-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 824EF4EBB720A56C0C7BEB95A4003D83 /* XLPagerTabStrip-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		996677E13049DFC9242FD99DAB3F5635 /* SwipeDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A13FE6E896A1C24AB85F016CCCA7C4A /* SwipeDirection.swift */; };
+		AA13E59708361DB155E7077F44B03E55 /* Annotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E49A16F046C591619331964695F5E9B /* Annotation.swift */; };
+		ACF57C44AE6DA3696D72D9180135FC18 /* IndicatorInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7509CD482570B8AD9F54A2E791F8328 /* IndicatorInfo.swift */; };
+		B650C33314924C432E3C786E912D4487 /* ButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B15EBE6A82C5DBDD3191668A98DE4FA7 /* ButtonCell.xib */; };
+		BFC79A6B55E48BBD3CAE569EE8A86A7B /* BarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E17E78086F95374D2C24E31E66F571 /* BarView.swift */; };
+		C1004466322E865FD93B238E56E82F0C /* BaseButtonBarPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD3FEFA039F1ABCB98CB97E21114ACB /* BaseButtonBarPagerTabStripViewController.swift */; };
+		D19214B6379DEF7A72838EC5E966C2E9 /* Pods-Konleng Real EstateUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C37685C7C1F9F86997A2802B1AFB010F /* Pods-Konleng Real EstateUITests-dummy.m */; };
+		D46F54E9A8F68A3FE6163DB491778C29 /* ButtonBarPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D180193F9B43F3F4CD989CFE1B82C4C /* ButtonBarPagerTabStripViewController.swift */; };
+		D537BF2E0006C4E88E01DE6FF8BF6EA3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		D9C1173BDFD7540A32244AE86DE4EA6A /* Pods-Konleng Real EstateTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 36EF9DCC870E045065D6279510BE9309 /* Pods-Konleng Real EstateTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E50C414F236F3DE9663D05462BD87D35 /* Cluster-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B4910BECF31F0D3B3B4960F0B3266A6E /* Cluster-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAA860EFFCC535879516C7DF90B12FF6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		F1113E3831DF9BB08535DE3AAE5AA4C3 /* FXPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 14BBB344A84405FAD2B7506DF4500323 /* FXPageControl.m */; };
+		F39E757483437318758B49648BA8E1A9 /* ButtonBarViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABCEF6869AD9C449469F809FCAB40F7 /* ButtonBarViewCell.swift */; };
+		FD5A68568101FFDAC676CF01022CA4E4 /* Cluster-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C33336A3F847D3ACB5CA9704662B462E /* Cluster-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3548FA74CD43C25DC8A3D3C09B0B6227 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4148D6DFF33E8B9C7DA36EEFA05162F;
+			remoteInfo = "XLPagerTabStrip-XLPagerTabStrip";
+		};
+		80ECEBDD1279F345F7D1D407E0C7AFC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5345FECAAF7F0B3748007FDDE3836F0A;
+			remoteInfo = XLPagerTabStrip;
+		};
+		D0BBE725E86E4B901D5A95A673DFE64F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CF763AF743225C5812E7F495B76A06A;
+			remoteInfo = Cluster;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01F8E656DFC6D2611F5B29061E239A60 /* Pods-Konleng Real EstateUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Konleng Real EstateUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		01F91A8228D826E6B8B74F705E1FF185 /* Pods-Konleng Real Estate-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Konleng Real Estate-acknowledgements.markdown"; sourceTree = "<group>"; };
+		045AD47E1625506E1B3D2ECD14518B59 /* XLPagerTabStrip.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = XLPagerTabStrip.modulemap; sourceTree = "<group>"; };
+		077329815A42324F3CEF035B328E5A43 /* Pods-Konleng Real EstateUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Konleng Real EstateUITests.modulemap"; sourceTree = "<group>"; };
+		0B38357A91F84FD966C6E69DB320AB9B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12F3BB417CD656F64C9E360193763312 /* Pods_Konleng_Real_EstateTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Konleng_Real_EstateTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		139867C42545317A267DB55B985F194F /* ButtonBarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonBarView.swift; path = Sources/ButtonBarView.swift; sourceTree = "<group>"; };
+		14BBB344A84405FAD2B7506DF4500323 /* FXPageControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FXPageControl.m; path = Sources/FXPageControl.m; sourceTree = "<group>"; };
+		1BD3FEFA039F1ABCB98CB97E21114ACB /* BaseButtonBarPagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseButtonBarPagerTabStripViewController.swift; path = Sources/BaseButtonBarPagerTabStripViewController.swift; sourceTree = "<group>"; };
+		1ED22A54EFE3933CD1E0EBC404547CF6 /* Pods-Konleng Real EstateTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Konleng Real EstateTests.modulemap"; sourceTree = "<group>"; };
+		223F37AAC10FDFE1AC509BA271BD07A7 /* Pods-Konleng Real EstateUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Konleng Real EstateUITests-resources.sh"; sourceTree = "<group>"; };
+		285AF6401F4D9D62704AE5070AC5658B /* Pods_Konleng_Real_EstateUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Konleng_Real_EstateUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28A3090C9D200F9D2E2836DA6B63F6DB /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Sources/Extensions.swift; sourceTree = "<group>"; };
+		2D180193F9B43F3F4CD989CFE1B82C4C /* ButtonBarPagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonBarPagerTabStripViewController.swift; path = Sources/ButtonBarPagerTabStripViewController.swift; sourceTree = "<group>"; };
+		31D262EA030DCD1249565E2B161C6526 /* Pods_Konleng_Real_Estate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Konleng_Real_Estate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		335A632BFF4F14A5B17321A508A94D83 /* QuadTree.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuadTree.swift; path = Sources/QuadTree.swift; sourceTree = "<group>"; };
+		36EF9DCC870E045065D6279510BE9309 /* Pods-Konleng Real EstateTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Konleng Real EstateTests-umbrella.h"; sourceTree = "<group>"; };
+		3A90C951066F3958B926BDE41AC901BA /* PagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagerTabStripViewController.swift; path = Sources/PagerTabStripViewController.swift; sourceTree = "<group>"; };
+		3BEF428C46519B134415283288D69993 /* Pods-Konleng Real EstateUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Konleng Real EstateUITests-umbrella.h"; sourceTree = "<group>"; };
+		3E49A16F046C591619331964695F5E9B /* Annotation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Annotation.swift; path = Sources/Annotation.swift; sourceTree = "<group>"; };
+		3F6B0E328FF18FB8248E2D6294E977CA /* Pods-Konleng Real EstateUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Konleng Real EstateUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4680C36D3E89B84E07BFC409F45B87C1 /* Pods-Konleng Real EstateUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Konleng Real EstateUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4872872296A562C33EDCFEB95270C411 /* Cluster.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cluster.swift; path = Sources/Cluster.swift; sourceTree = "<group>"; };
+		51E0C3C3B9110CD241FC445DFE3C54B3 /* XLPagerTabStrip.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XLPagerTabStrip.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		587DB4B1D566074D71728BCCDFAA8942 /* Pods-Konleng Real EstateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Konleng Real EstateTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5ACF2FB67E19232211094B058AAA1A8B /* Pods-Konleng Real Estate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Konleng Real Estate.release.xcconfig"; sourceTree = "<group>"; };
+		6192BB780FF34D0C1F2552B97AA1F7E8 /* Pods-Konleng Real EstateUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Konleng Real EstateUITests.release.xcconfig"; sourceTree = "<group>"; };
+		65288F5C431583D972A212B9F472DB05 /* Pods-Konleng Real Estate.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Konleng Real Estate.modulemap"; sourceTree = "<group>"; };
+		65BF2CC7C9FBBE067F6AFE94A00DDBF2 /* TwitterPagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TwitterPagerTabStripViewController.swift; path = Sources/TwitterPagerTabStripViewController.swift; sourceTree = "<group>"; };
+		66A443925D3A9D2AD3D673550876CB7E /* BarPagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarPagerTabStripViewController.swift; path = Sources/BarPagerTabStripViewController.swift; sourceTree = "<group>"; };
+		66BB98E291DBBEB500C69DC5475F2F07 /* Pods-Konleng Real Estate-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Konleng Real Estate-acknowledgements.plist"; sourceTree = "<group>"; };
+		6CC960759EFCAF6E93EAEC46641E2D50 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CD1C9A21B25F536EE260CF45AC7644D /* Cluster-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cluster-prefix.pch"; sourceTree = "<group>"; };
+		7809E06959CF087F4E4EB2959481EAD3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DA68B9E50837967F81037EE78AC1136 /* Pods-Konleng Real EstateUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Konleng Real EstateUITests-frameworks.sh"; sourceTree = "<group>"; };
+		824EF4EBB720A56C0C7BEB95A4003D83 /* XLPagerTabStrip-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XLPagerTabStrip-umbrella.h"; sourceTree = "<group>"; };
+		83963CD090335FCBD534133478E3635D /* Pods-Konleng Real EstateTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Konleng Real EstateTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		85244882AA47750BE975E52C93C5495E /* Pods-Konleng Real EstateTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Konleng Real EstateTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		85CDA8A5AD38915193B89CBC64957D01 /* Pods-Konleng Real EstateTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Konleng Real EstateTests-dummy.m"; sourceTree = "<group>"; };
+		87CEBBB4D0DD6066ED431B657830FB9C /* Cluster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Cluster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DE244C3D6DA73EA868CC0B2A5B22A06 /* Pods-Konleng Real Estate-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Konleng Real Estate-dummy.m"; sourceTree = "<group>"; };
+		8E1F80E066B1F2AD49586C4045FC6F7B /* ResourceBundle-XLPagerTabStrip-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-XLPagerTabStrip-Info.plist"; sourceTree = "<group>"; };
+		92BD41A467E9154B97D4C872115B5EE1 /* Pods-Konleng Real EstateTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Konleng Real EstateTests-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94F08CD30D32B9A3EA09752C6145FF96 /* PagerTabStripError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagerTabStripError.swift; path = Sources/PagerTabStripError.swift; sourceTree = "<group>"; };
+		9A13FE6E896A1C24AB85F016CCCA7C4A /* SwipeDirection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeDirection.swift; path = Sources/SwipeDirection.swift; sourceTree = "<group>"; };
+		A0F41249774947E85347151D1DD62259 /* Pods-Konleng Real Estate-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Konleng Real Estate-resources.sh"; sourceTree = "<group>"; };
+		A7509CD482570B8AD9F54A2E791F8328 /* IndicatorInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IndicatorInfo.swift; path = Sources/IndicatorInfo.swift; sourceTree = "<group>"; };
+		A9F2EFE077DABAD835532950642777CE /* PagerTabStripBehaviour.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagerTabStripBehaviour.swift; path = Sources/PagerTabStripBehaviour.swift; sourceTree = "<group>"; };
+		ABF1F8E689C3A20096B754ABFADCC3E4 /* Pods-Konleng Real Estate-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Konleng Real Estate-umbrella.h"; sourceTree = "<group>"; };
+		B0B4A98BBF1272E3FB86EEC4428F0BBF /* Pods-Konleng Real Estate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Konleng Real Estate.debug.xcconfig"; sourceTree = "<group>"; };
+		B0DA09FBA93F16A3FD001EF3D168FBFC /* Pods-Konleng Real Estate-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Konleng Real Estate-frameworks.sh"; sourceTree = "<group>"; };
+		B15EBE6A82C5DBDD3191668A98DE4FA7 /* ButtonCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ButtonCell.xib; path = Sources/ButtonCell.xib; sourceTree = "<group>"; };
+		B32F4A39A542527C5B22B3017293401B /* Cluster.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Cluster.modulemap; sourceTree = "<group>"; };
+		B4910BECF31F0D3B3B4960F0B3266A6E /* Cluster-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cluster-umbrella.h"; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		BAFFB5C75CDAFC04D86A666C420970FE /* Pods-Konleng Real EstateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Konleng Real EstateTests.release.xcconfig"; sourceTree = "<group>"; };
+		BFB5048145FB70BCA5E179DB534B48E9 /* XLPagerTabStrip-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XLPagerTabStrip-dummy.m"; sourceTree = "<group>"; };
+		C1C1F298DCB55404131A2A4E7DDE3156 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C33336A3F847D3ACB5CA9704662B462E /* Cluster-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Cluster-dummy.m"; sourceTree = "<group>"; };
+		C37685C7C1F9F86997A2802B1AFB010F /* Pods-Konleng Real EstateUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Konleng Real EstateUITests-dummy.m"; sourceTree = "<group>"; };
+		C8E17E78086F95374D2C24E31E66F571 /* BarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarView.swift; path = Sources/BarView.swift; sourceTree = "<group>"; };
+		CBAA96EB1AF612A4DD85A50BD7EC6E63 /* FXPageControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FXPageControl.h; path = Sources/FXPageControl.h; sourceTree = "<group>"; };
+		CF5B551E33302F5211F7522A482E7B32 /* XLPagerTabStrip.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XLPagerTabStrip.xcconfig; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DABCEF6869AD9C449469F809FCAB40F7 /* ButtonBarViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonBarViewCell.swift; path = Sources/ButtonBarViewCell.swift; sourceTree = "<group>"; };
+		E2A61D0F08C7728D180CACDC26B70EBD /* XLPagerTabStrip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XLPagerTabStrip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF838E631F8536F4A1A2491B21C44419 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3A157B9E735275E1EFA1952D28E8361 /* Cluster.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Cluster.xcconfig; sourceTree = "<group>"; };
+		FAC259B7C52AEF7574DD569145C831FC /* SegmentedPagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegmentedPagerTabStripViewController.swift; path = Sources/SegmentedPagerTabStripViewController.swift; sourceTree = "<group>"; };
+		FD09B75EC4005EE8928B5687DF5DCA09 /* Pods-Konleng Real EstateTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Konleng Real EstateTests-resources.sh"; sourceTree = "<group>"; };
+		FD18AEB7C3CCE2B66B7B5A1AF5940B58 /* XLPagerTabStrip-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XLPagerTabStrip-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1127439642F68BE4BC6D08C4240CDEE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D537BF2E0006C4E88E01DE6FF8BF6EA3 /* Foundation.framework in Frameworks */,
+				1417D96A391943109D4FE497BBD52070 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		451D020EB2AE14AC7CC43442D79B62B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				136BD7C769E3A9BB88F5DB3DC78FBB5A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88D0F41888E440968CA75F5E727F55F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BB4310C5973B3CB13F062FB118B15A4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5871DA7EF10BA3BF205EF309D3DB2F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80F6305913007B139416859838A511F4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7B84169CBC803104DC61D3E8F3EE787 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9EF2B758781E5843BFF9EC1C6DE2B68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAA860EFFCC535879516C7DF90B12FF6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02350FB3D897D4E9999BDAC8D85CB73D /* Pods-Konleng Real Estate */ = {
+			isa = PBXGroup;
+			children = (
+				6CC960759EFCAF6E93EAEC46641E2D50 /* Info.plist */,
+				65288F5C431583D972A212B9F472DB05 /* Pods-Konleng Real Estate.modulemap */,
+				01F91A8228D826E6B8B74F705E1FF185 /* Pods-Konleng Real Estate-acknowledgements.markdown */,
+				66BB98E291DBBEB500C69DC5475F2F07 /* Pods-Konleng Real Estate-acknowledgements.plist */,
+				8DE244C3D6DA73EA868CC0B2A5B22A06 /* Pods-Konleng Real Estate-dummy.m */,
+				B0DA09FBA93F16A3FD001EF3D168FBFC /* Pods-Konleng Real Estate-frameworks.sh */,
+				A0F41249774947E85347151D1DD62259 /* Pods-Konleng Real Estate-resources.sh */,
+				ABF1F8E689C3A20096B754ABFADCC3E4 /* Pods-Konleng Real Estate-umbrella.h */,
+				B0B4A98BBF1272E3FB86EEC4428F0BBF /* Pods-Konleng Real Estate.debug.xcconfig */,
+				5ACF2FB67E19232211094B058AAA1A8B /* Pods-Konleng Real Estate.release.xcconfig */,
+			);
+			name = "Pods-Konleng Real Estate";
+			path = "Target Support Files/Pods-Konleng Real Estate";
+			sourceTree = "<group>";
+		};
+		2CE49FB2D62080FC481E31255CD4F29F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87CEBBB4D0DD6066ED431B657830FB9C /* Cluster.framework */,
+				31D262EA030DCD1249565E2B161C6526 /* Pods_Konleng_Real_Estate.framework */,
+				12F3BB417CD656F64C9E360193763312 /* Pods_Konleng_Real_EstateTests.framework */,
+				285AF6401F4D9D62704AE5070AC5658B /* Pods_Konleng_Real_EstateUITests.framework */,
+				51E0C3C3B9110CD241FC445DFE3C54B3 /* XLPagerTabStrip.bundle */,
+				E2A61D0F08C7728D180CACDC26B70EBD /* XLPagerTabStrip.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34A26E8604B50ABB51B9A4D7D2EE949A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B38357A91F84FD966C6E69DB320AB9B /* Info.plist */,
+				8E1F80E066B1F2AD49586C4045FC6F7B /* ResourceBundle-XLPagerTabStrip-Info.plist */,
+				045AD47E1625506E1B3D2ECD14518B59 /* XLPagerTabStrip.modulemap */,
+				CF5B551E33302F5211F7522A482E7B32 /* XLPagerTabStrip.xcconfig */,
+				BFB5048145FB70BCA5E179DB534B48E9 /* XLPagerTabStrip-dummy.m */,
+				FD18AEB7C3CCE2B66B7B5A1AF5940B58 /* XLPagerTabStrip-prefix.pch */,
+				824EF4EBB720A56C0C7BEB95A4003D83 /* XLPagerTabStrip-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/XLPagerTabStrip";
+			sourceTree = "<group>";
+		};
+		3971DCF3AFD3B3A6DAF60E9774AC6ADA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B32F4A39A542527C5B22B3017293401B /* Cluster.modulemap */,
+				F3A157B9E735275E1EFA1952D28E8361 /* Cluster.xcconfig */,
+				C33336A3F847D3ACB5CA9704662B462E /* Cluster-dummy.m */,
+				6CD1C9A21B25F536EE260CF45AC7644D /* Cluster-prefix.pch */,
+				B4910BECF31F0D3B3B4960F0B3266A6E /* Cluster-umbrella.h */,
+				7809E06959CF087F4E4EB2959481EAD3 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Cluster";
+			sourceTree = "<group>";
+		};
+		3E2B9E218B17D441B4B7B0DCC8287FB5 /* XLPagerTabStrip */ = {
+			isa = PBXGroup;
+			children = (
+				66A443925D3A9D2AD3D673550876CB7E /* BarPagerTabStripViewController.swift */,
+				C8E17E78086F95374D2C24E31E66F571 /* BarView.swift */,
+				1BD3FEFA039F1ABCB98CB97E21114ACB /* BaseButtonBarPagerTabStripViewController.swift */,
+				2D180193F9B43F3F4CD989CFE1B82C4C /* ButtonBarPagerTabStripViewController.swift */,
+				139867C42545317A267DB55B985F194F /* ButtonBarView.swift */,
+				DABCEF6869AD9C449469F809FCAB40F7 /* ButtonBarViewCell.swift */,
+				B15EBE6A82C5DBDD3191668A98DE4FA7 /* ButtonCell.xib */,
+				CBAA96EB1AF612A4DD85A50BD7EC6E63 /* FXPageControl.h */,
+				14BBB344A84405FAD2B7506DF4500323 /* FXPageControl.m */,
+				A7509CD482570B8AD9F54A2E791F8328 /* IndicatorInfo.swift */,
+				A9F2EFE077DABAD835532950642777CE /* PagerTabStripBehaviour.swift */,
+				94F08CD30D32B9A3EA09752C6145FF96 /* PagerTabStripError.swift */,
+				3A90C951066F3958B926BDE41AC901BA /* PagerTabStripViewController.swift */,
+				FAC259B7C52AEF7574DD569145C831FC /* SegmentedPagerTabStripViewController.swift */,
+				9A13FE6E896A1C24AB85F016CCCA7C4A /* SwipeDirection.swift */,
+				65BF2CC7C9FBBE067F6AFE94A00DDBF2 /* TwitterPagerTabStripViewController.swift */,
+				A20EDA3CA69B2E7CE4BAAFF196082D50 /* Resources */,
+				34A26E8604B50ABB51B9A4D7D2EE949A /* Support Files */,
+			);
+			path = XLPagerTabStrip;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		469CEE4EEC146E78AE4264865602DDE1 /* Pods-Konleng Real EstateTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF838E631F8536F4A1A2491B21C44419 /* Info.plist */,
+				1ED22A54EFE3933CD1E0EBC404547CF6 /* Pods-Konleng Real EstateTests.modulemap */,
+				83963CD090335FCBD534133478E3635D /* Pods-Konleng Real EstateTests-acknowledgements.markdown */,
+				85244882AA47750BE975E52C93C5495E /* Pods-Konleng Real EstateTests-acknowledgements.plist */,
+				85CDA8A5AD38915193B89CBC64957D01 /* Pods-Konleng Real EstateTests-dummy.m */,
+				92BD41A467E9154B97D4C872115B5EE1 /* Pods-Konleng Real EstateTests-frameworks.sh */,
+				FD09B75EC4005EE8928B5687DF5DCA09 /* Pods-Konleng Real EstateTests-resources.sh */,
+				36EF9DCC870E045065D6279510BE9309 /* Pods-Konleng Real EstateTests-umbrella.h */,
+				587DB4B1D566074D71728BCCDFAA8942 /* Pods-Konleng Real EstateTests.debug.xcconfig */,
+				BAFFB5C75CDAFC04D86A666C420970FE /* Pods-Konleng Real EstateTests.release.xcconfig */,
+			);
+			name = "Pods-Konleng Real EstateTests";
+			path = "Target Support Files/Pods-Konleng Real EstateTests";
+			sourceTree = "<group>";
+		};
+		5FE4ADD39479845E88C459B46C14C764 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				02350FB3D897D4E9999BDAC8D85CB73D /* Pods-Konleng Real Estate */,
+				469CEE4EEC146E78AE4264865602DDE1 /* Pods-Konleng Real EstateTests */,
+				BB86C27145ECD3F4BEDE4C91D7C2E7BD /* Pods-Konleng Real EstateUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				E6A1EA95D530B8898F3F8D0F162F3FF3 /* Pods */,
+				2CE49FB2D62080FC481E31255CD4F29F /* Products */,
+				5FE4ADD39479845E88C459B46C14C764 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A20EDA3CA69B2E7CE4BAAFF196082D50 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BB86C27145ECD3F4BEDE4C91D7C2E7BD /* Pods-Konleng Real EstateUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C1C1F298DCB55404131A2A4E7DDE3156 /* Info.plist */,
+				077329815A42324F3CEF035B328E5A43 /* Pods-Konleng Real EstateUITests.modulemap */,
+				4680C36D3E89B84E07BFC409F45B87C1 /* Pods-Konleng Real EstateUITests-acknowledgements.markdown */,
+				01F8E656DFC6D2611F5B29061E239A60 /* Pods-Konleng Real EstateUITests-acknowledgements.plist */,
+				C37685C7C1F9F86997A2802B1AFB010F /* Pods-Konleng Real EstateUITests-dummy.m */,
+				7DA68B9E50837967F81037EE78AC1136 /* Pods-Konleng Real EstateUITests-frameworks.sh */,
+				223F37AAC10FDFE1AC509BA271BD07A7 /* Pods-Konleng Real EstateUITests-resources.sh */,
+				3BEF428C46519B134415283288D69993 /* Pods-Konleng Real EstateUITests-umbrella.h */,
+				3F6B0E328FF18FB8248E2D6294E977CA /* Pods-Konleng Real EstateUITests.debug.xcconfig */,
+				6192BB780FF34D0C1F2552B97AA1F7E8 /* Pods-Konleng Real EstateUITests.release.xcconfig */,
+			);
+			name = "Pods-Konleng Real EstateUITests";
+			path = "Target Support Files/Pods-Konleng Real EstateUITests";
+			sourceTree = "<group>";
+		};
+		D54E9E935A9AD4F51156735D7D84FAEC /* Cluster */ = {
+			isa = PBXGroup;
+			children = (
+				3E49A16F046C591619331964695F5E9B /* Annotation.swift */,
+				4872872296A562C33EDCFEB95270C411 /* Cluster.swift */,
+				28A3090C9D200F9D2E2836DA6B63F6DB /* Extensions.swift */,
+				335A632BFF4F14A5B17321A508A94D83 /* QuadTree.swift */,
+				3971DCF3AFD3B3A6DAF60E9774AC6ADA /* Support Files */,
+			);
+			path = Cluster;
+			sourceTree = "<group>";
+		};
+		E6A1EA95D530B8898F3F8D0F162F3FF3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D54E9E935A9AD4F51156735D7D84FAEC /* Cluster */,
+				3E2B9E218B17D441B4B7B0DCC8287FB5 /* XLPagerTabStrip */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1F3A3A422600D002C0F8D5E48FA1277C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3968AFEF4B4ABBA21AA7EE07B579536C /* Pods-Konleng Real Estate-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D6FD5ACCF19660E4C93443CAE22B314 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9C1173BDFD7540A32244AE86DE4EA6A /* Pods-Konleng Real EstateTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E71D9FEB5D3DE23410321BA43CB187C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E50C414F236F3DE9663D05462BD87D35 /* Cluster-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6756BB4F4866160383542C935CCFCE7D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21A925CF41C00369602D4EB6F47B45AC /* FXPageControl.h in Headers */,
+				96487965049A80455622663CEFF0E813 /* XLPagerTabStrip-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BAB63AFBABAD9D131ABE7300B98D135 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8427314883AFC6549F4CCFABFF60D538 /* Pods-Konleng Real EstateUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0BD872B74E12C5A3CFC4E8E5C22511A8 /* Pods-Konleng Real Estate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4540C81D6B9907761F1AB953AE33C5E0 /* Build configuration list for PBXNativeTarget "Pods-Konleng Real Estate" */;
+			buildPhases = (
+				E6D423FEB48FAD4C370C18C7BFF9C399 /* Sources */,
+				E9EF2B758781E5843BFF9EC1C6DE2B68 /* Frameworks */,
+				1F3A3A422600D002C0F8D5E48FA1277C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9569124E8007CA95C4616599C14E09A /* PBXTargetDependency */,
+				21A6D61CB81DB8D42B7BABC0873F8F27 /* PBXTargetDependency */,
+			);
+			name = "Pods-Konleng Real Estate";
+			productName = "Pods-Konleng Real Estate";
+			productReference = 31D262EA030DCD1249565E2B161C6526 /* Pods_Konleng_Real_Estate.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5345FECAAF7F0B3748007FDDE3836F0A /* XLPagerTabStrip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E65F0CF8DB60E07D7323E9CFB335C3B4 /* Build configuration list for PBXNativeTarget "XLPagerTabStrip" */;
+			buildPhases = (
+				D46EA5042429D0A086FE7AE769FC0A04 /* Sources */,
+				1127439642F68BE4BC6D08C4240CDEE1 /* Frameworks */,
+				2CA93304A4DFA0CAD1D930065FD36227 /* Resources */,
+				6756BB4F4866160383542C935CCFCE7D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D35A0D45AF3CDB30AE9A9D689F2F4ED /* PBXTargetDependency */,
+			);
+			name = XLPagerTabStrip;
+			productName = XLPagerTabStrip;
+			productReference = E2A61D0F08C7728D180CACDC26B70EBD /* XLPagerTabStrip.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8C4180E08186176EE5AF61CE26311C23 /* Pods-Konleng Real EstateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35CEE4ADE63E68EAF103C00EAB4B2CE1 /* Build configuration list for PBXNativeTarget "Pods-Konleng Real EstateTests" */;
+			buildPhases = (
+				F5B6149733D39CC2B4E0318E7A195497 /* Sources */,
+				451D020EB2AE14AC7CC43442D79B62B9 /* Frameworks */,
+				4D6FD5ACCF19660E4C93443CAE22B314 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Konleng Real EstateTests";
+			productName = "Pods-Konleng Real EstateTests";
+			productReference = 12F3BB417CD656F64C9E360193763312 /* Pods_Konleng_Real_EstateTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8C967979C138BD35EB78154ECCBC4645 /* Pods-Konleng Real EstateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4C3134D426E5320D081B268BC91B622 /* Build configuration list for PBXNativeTarget "Pods-Konleng Real EstateUITests" */;
+			buildPhases = (
+				1EC285D98662B518AFBC973E1DA32154 /* Sources */,
+				88D0F41888E440968CA75F5E727F55F5 /* Frameworks */,
+				8BAB63AFBABAD9D131ABE7300B98D135 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Konleng Real EstateUITests";
+			productName = "Pods-Konleng Real EstateUITests";
+			productReference = 285AF6401F4D9D62704AE5070AC5658B /* Pods_Konleng_Real_EstateUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8CF763AF743225C5812E7F495B76A06A /* Cluster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81D45406B5B3B68359B403911DEB6F41 /* Build configuration list for PBXNativeTarget "Cluster" */;
+			buildPhases = (
+				99C8AE84B7F15332595AAB6ACCB01192 /* Sources */,
+				B5871DA7EF10BA3BF205EF309D3DB2F3 /* Frameworks */,
+				5E71D9FEB5D3DE23410321BA43CB187C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cluster;
+			productName = Cluster;
+			productReference = 87CEBBB4D0DD6066ED431B657830FB9C /* Cluster.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F4148D6DFF33E8B9C7DA36EEFA05162F /* XLPagerTabStrip-XLPagerTabStrip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75BBF1B089C7BBCD3B79441FCF916726 /* Build configuration list for PBXNativeTarget "XLPagerTabStrip-XLPagerTabStrip" */;
+			buildPhases = (
+				A0099C07ECA334461770CD9E6C4729E7 /* Sources */,
+				C7B84169CBC803104DC61D3E8F3EE787 /* Frameworks */,
+				0C238EE53DC482EF4AC5339C90E22719 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "XLPagerTabStrip-XLPagerTabStrip";
+			productName = "XLPagerTabStrip-XLPagerTabStrip";
+			productReference = 51E0C3C3B9110CD241FC445DFE3C54B3 /* XLPagerTabStrip.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0920;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 2CE49FB2D62080FC481E31255CD4F29F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CF763AF743225C5812E7F495B76A06A /* Cluster */,
+				0BD872B74E12C5A3CFC4E8E5C22511A8 /* Pods-Konleng Real Estate */,
+				8C4180E08186176EE5AF61CE26311C23 /* Pods-Konleng Real EstateTests */,
+				8C967979C138BD35EB78154ECCBC4645 /* Pods-Konleng Real EstateUITests */,
+				5345FECAAF7F0B3748007FDDE3836F0A /* XLPagerTabStrip */,
+				F4148D6DFF33E8B9C7DA36EEFA05162F /* XLPagerTabStrip-XLPagerTabStrip */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C238EE53DC482EF4AC5339C90E22719 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B650C33314924C432E3C786E912D4487 /* ButtonCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CA93304A4DFA0CAD1D930065FD36227 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E09A55E47EE384CA2AE9295254C6243 /* XLPagerTabStrip.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EC285D98662B518AFBC973E1DA32154 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D19214B6379DEF7A72838EC5E966C2E9 /* Pods-Konleng Real EstateUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99C8AE84B7F15332595AAB6ACCB01192 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA13E59708361DB155E7077F44B03E55 /* Annotation.swift in Sources */,
+				FD5A68568101FFDAC676CF01022CA4E4 /* Cluster-dummy.m in Sources */,
+				717A099C5464E41B3578B7F74E9FD1EF /* Cluster.swift in Sources */,
+				0F47D46A60A66AA9099E95505C3014D4 /* Extensions.swift in Sources */,
+				7D5C0875776AB59BA519288C0298C8B3 /* QuadTree.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0099C07ECA334461770CD9E6C4729E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D46EA5042429D0A086FE7AE769FC0A04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01310980F9DDB7EB9FD591EDAD84B7D9 /* BarPagerTabStripViewController.swift in Sources */,
+				BFC79A6B55E48BBD3CAE569EE8A86A7B /* BarView.swift in Sources */,
+				C1004466322E865FD93B238E56E82F0C /* BaseButtonBarPagerTabStripViewController.swift in Sources */,
+				D46F54E9A8F68A3FE6163DB491778C29 /* ButtonBarPagerTabStripViewController.swift in Sources */,
+				63D95C6305876BE190D29EF716E51D64 /* ButtonBarView.swift in Sources */,
+				F39E757483437318758B49648BA8E1A9 /* ButtonBarViewCell.swift in Sources */,
+				7355B2D7FFDE22E3C699C0FC945095BF /* ButtonCell.xib in Sources */,
+				F1113E3831DF9BB08535DE3AAE5AA4C3 /* FXPageControl.m in Sources */,
+				ACF57C44AE6DA3696D72D9180135FC18 /* IndicatorInfo.swift in Sources */,
+				53F9EEE009B6D2DBF748D49BB61AF0CE /* PagerTabStripBehaviour.swift in Sources */,
+				3566FE62E38E1F718A142702FD551DF0 /* PagerTabStripError.swift in Sources */,
+				6CD98FC405EB52E64150CFA798E7A426 /* PagerTabStripViewController.swift in Sources */,
+				644FF73781C6D8BC7448B8A9C26B4485 /* SegmentedPagerTabStripViewController.swift in Sources */,
+				996677E13049DFC9242FD99DAB3F5635 /* SwipeDirection.swift in Sources */,
+				177CD08E2AB51FB5B1FFD879D34A59FF /* TwitterPagerTabStripViewController.swift in Sources */,
+				719EFBAAE91E0166BC92CD23AE8076CF /* XLPagerTabStrip-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6D423FEB48FAD4C370C18C7BFF9C399 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				379E521BA2F9608804AE7A87A6860EF6 /* Pods-Konleng Real Estate-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5B6149733D39CC2B4E0318E7A195497 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DF5471DB34DBC4EA71BF118FE20B06A /* Pods-Konleng Real EstateTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21A6D61CB81DB8D42B7BABC0873F8F27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XLPagerTabStrip;
+			target = 5345FECAAF7F0B3748007FDDE3836F0A /* XLPagerTabStrip */;
+			targetProxy = 80ECEBDD1279F345F7D1D407E0C7AFC9 /* PBXContainerItemProxy */;
+		};
+		2D35A0D45AF3CDB30AE9A9D689F2F4ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "XLPagerTabStrip-XLPagerTabStrip";
+			target = F4148D6DFF33E8B9C7DA36EEFA05162F /* XLPagerTabStrip-XLPagerTabStrip */;
+			targetProxy = 3548FA74CD43C25DC8A3D3C09B0B6227 /* PBXContainerItemProxy */;
+		};
+		B9569124E8007CA95C4616599C14E09A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Cluster;
+			target = 8CF763AF743225C5812E7F495B76A06A /* Cluster */;
+			targetProxy = D0BBE725E86E4B901D5A95A673DFE64F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		097525B891A18557335707C4C1DC200D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3A157B9E735275E1EFA1952D28E8361 /* Cluster.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Cluster/Cluster-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Cluster/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Cluster/Cluster.modulemap";
+				PRODUCT_NAME = Cluster;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1601F6F6657591D751B8C13CE66229A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0B4A98BBF1272E3FB86EEC4428F0BBF /* Pods-Konleng Real Estate.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Konleng Real Estate/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Konleng Real Estate/Pods-Konleng Real Estate.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Konleng_Real_Estate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2C038E2F8C88EB4BD6FBD8F2699F2DA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAFFB5C75CDAFC04D86A666C420970FE /* Pods-Konleng Real EstateTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Konleng Real EstateTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Konleng Real EstateTests/Pods-Konleng Real EstateTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Konleng_Real_EstateTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2C4ECD095014F6617778052870A98D55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 587DB4B1D566074D71728BCCDFAA8942 /* Pods-Konleng Real EstateTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Konleng Real EstateTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Konleng Real EstateTests/Pods-Konleng Real EstateTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Konleng_Real_EstateTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4217353D5E1A28F44BD46CEB9BE91506 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3A157B9E735275E1EFA1952D28E8361 /* Cluster.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Cluster/Cluster-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Cluster/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Cluster/Cluster.modulemap";
+				PRODUCT_NAME = Cluster;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4B0CAC82BCDC4DC8B667CAA8C2D2AF3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF5B551E33302F5211F7522A482E7B32 /* XLPagerTabStrip.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/XLPagerTabStrip";
+				INFOPLIST_FILE = "Target Support Files/XLPagerTabStrip/ResourceBundle-XLPagerTabStrip-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = XLPagerTabStrip;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		5E7B1EF6CE89700B9A8B787C58AA9842 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6192BB780FF34D0C1F2552B97AA1F7E8 /* Pods-Konleng Real EstateUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Konleng Real EstateUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Konleng Real EstateUITests/Pods-Konleng Real EstateUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Konleng_Real_EstateUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6F9224530522DD3C735EC96CF142642E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7DD9CDEF56223FDE9FD492E156FC7CED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF5B551E33302F5211F7522A482E7B32 /* XLPagerTabStrip.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XLPagerTabStrip/XLPagerTabStrip-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XLPagerTabStrip/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XLPagerTabStrip/XLPagerTabStrip.modulemap";
+				PRODUCT_NAME = XLPagerTabStrip;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8127305CC0DDF1C477FE15B4853DD15C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F6B0E328FF18FB8248E2D6294E977CA /* Pods-Konleng Real EstateUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Konleng Real EstateUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Konleng Real EstateUITests/Pods-Konleng Real EstateUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Konleng_Real_EstateUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8562CD5180AE58C5438E58936420B699 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF5B551E33302F5211F7522A482E7B32 /* XLPagerTabStrip.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/XLPagerTabStrip";
+				INFOPLIST_FILE = "Target Support Files/XLPagerTabStrip/ResourceBundle-XLPagerTabStrip-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = XLPagerTabStrip;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		B57951D085A1B98A97F8A1062A5E5C5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E3C0407E81CD32EEAAC7B0C4AB32F185 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5ACF2FB67E19232211094B058AAA1A8B /* Pods-Konleng Real Estate.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Konleng Real Estate/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Konleng Real Estate/Pods-Konleng Real Estate.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Konleng_Real_Estate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FAB4538E549E71312AB9B614DAF94A78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF5B551E33302F5211F7522A482E7B32 /* XLPagerTabStrip.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XLPagerTabStrip/XLPagerTabStrip-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XLPagerTabStrip/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XLPagerTabStrip/XLPagerTabStrip.modulemap";
+				PRODUCT_NAME = XLPagerTabStrip;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B57951D085A1B98A97F8A1062A5E5C5B /* Debug */,
+				6F9224530522DD3C735EC96CF142642E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35CEE4ADE63E68EAF103C00EAB4B2CE1 /* Build configuration list for PBXNativeTarget "Pods-Konleng Real EstateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C4ECD095014F6617778052870A98D55 /* Debug */,
+				2C038E2F8C88EB4BD6FBD8F2699F2DA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4540C81D6B9907761F1AB953AE33C5E0 /* Build configuration list for PBXNativeTarget "Pods-Konleng Real Estate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1601F6F6657591D751B8C13CE66229A6 /* Debug */,
+				E3C0407E81CD32EEAAC7B0C4AB32F185 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75BBF1B089C7BBCD3B79441FCF916726 /* Build configuration list for PBXNativeTarget "XLPagerTabStrip-XLPagerTabStrip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8562CD5180AE58C5438E58936420B699 /* Debug */,
+				4B0CAC82BCDC4DC8B667CAA8C2D2AF3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81D45406B5B3B68359B403911DEB6F41 /* Build configuration list for PBXNativeTarget "Cluster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				097525B891A18557335707C4C1DC200D /* Debug */,
+				4217353D5E1A28F44BD46CEB9BE91506 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4C3134D426E5320D081B268BC91B622 /* Build configuration list for PBXNativeTarget "Pods-Konleng Real EstateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8127305CC0DDF1C477FE15B4853DD15C /* Debug */,
+				5E7B1EF6CE89700B9A8B787C58AA9842 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E65F0CF8DB60E07D7323E9CFB335C3B4 /* Build configuration list for PBXNativeTarget "XLPagerTabStrip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB4538E549E71312AB9B614DAF94A78 /* Debug */,
+				7DD9CDEF56223FDE9FD492E156FC7CED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
