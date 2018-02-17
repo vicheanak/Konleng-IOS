@@ -1,15 +1,58 @@
 PODS:
-  - Cluster (2.1.0)
+  - Cluster (2.1.2)
+  - Eureka (4.0.1)
+  - ImageSlideshow (1.5.1):
+    - ImageSlideshow/Core (= 1.5.1)
+  - ImageSlideshow/Core (1.5.1)
+  - Material (2.13.6):
+    - Material/Core (= 2.13.6)
+  - Material/Core (2.13.6):
+    - Motion (~> 1.3.0)
+  - Motion (1.3.5):
+    - Motion/Core (= 1.3.5)
+  - Motion/Core (1.3.5)
+  - RSSelectionMenu (3.2)
+  - SnapKit (4.0.0)
+  - SwiftChart (1.0.1)
+  - TLPhotoPicker (1.5.0)
+  - ViewRow (0.3.0):
+    - Eureka (>= 4.0.0)
   - XLPagerTabStrip (8.0.0)
 
 DEPENDENCIES:
   - Cluster
+  - Eureka
+  - ImageSlideshow
+  - Material (~> 2.0)
+  - RSSelectionMenu
+  - SnapKit (~> 4.0.0)
+  - SwiftChart
+  - TLPhotoPicker
+  - ViewRow (from `https://github.com/EurekaCommunity/ViewRow`)
   - XLPagerTabStrip (~> 8.0)
 
+EXTERNAL SOURCES:
+  ViewRow:
+    :git: https://github.com/EurekaCommunity/ViewRow
+
+CHECKOUT OPTIONS:
+  ViewRow:
+    :commit: fbfc539796f8a00102a671b338c1c3bbb39a6b89
+    :git: https://github.com/EurekaCommunity/ViewRow
+
 SPEC CHECKSUMS:
-  Cluster: b1b363bb4b6991c73f5da2f4ab175fc7424f9900
+  Cluster: 7ae5f723b1993e59bb7326dad059a7022f181e42
+  Eureka: c8bd5cc07143b6f66268c208d28a246c99b41955
+  ImageSlideshow: ae3de479b8c70dc751142d21573f5a28dbb97d4d
+  Material: ef704dcc1bced32ab7c91ece2ba734da557e3f36
+  Motion: 9f74d115d7f72bb5380a8e3cde2f8a1fc898ac36
+  RSSelectionMenu: 9263c19c4b01b0dedf33903ae21a608b469e9b2b
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  SwiftChart: ba767a678d568a5ee22d419e146a0582865e1aff
+  TLPhotoPicker: 3fc7f1c48641cd2258041fe866b6db422f058187
+  ViewRow: e278428ff53da5eab18b191d3e19a16f3e299fc1
   XLPagerTabStrip: d1ab378af0923320ec0b5eab11d7b2f803d31261
 
-PODFILE CHECKSUM: aec07ab0a3ed6b5088ffc6ae33cf63920de7cadb
+PODFILE CHECKSUM: 6ae4cdb728dff0192d730fa506cb56a71834c4e8
 
 COCOAPODS: 1.4.0

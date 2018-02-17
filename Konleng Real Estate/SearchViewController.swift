@@ -37,9 +37,12 @@ class SearchViewController: ButtonBarPagerTabStripViewController {
     }
     
     override func viewControllers(for pagerTabStripController: PagerTabStripViewController) -> [UIViewController] {
-        let sellViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "sellStoryBoard")
-        let rentViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "rentStoryBoard")
-        return [sellViewController, rentViewController]
+//        let mapViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "mapViewStoryBoard")
+//        let listViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "listStoryBoard")
+//        return [mapViewController, listViewController]
+        let mapChildViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "mapStoryBoard")
+        let listChildViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "listStoryBoard")
+        return [mapChildViewController, listChildViewController]
     }
 
 

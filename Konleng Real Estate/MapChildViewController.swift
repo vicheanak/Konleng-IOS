@@ -120,10 +120,10 @@ class MapChildViewController: UIViewController, IndicatorInfoProvider, MKMapView
 
 
 class BorderedClusterAnnotationView: ClusterAnnotationView {
-    let borderColor: UIColor
+//    let borderColor: UIColor
     
     init(annotation: MKAnnotation?, reuseIdentifier: String?, style: ClusterAnnotationStyle, borderColor: UIColor) {
-        self.borderColor = borderColor
+//        self.borderColor = borderColor
         super.init(annotation: annotation, reuseIdentifier: reuseIdentifier, style: style)
     }
     
@@ -138,7 +138,7 @@ class BorderedClusterAnnotationView: ClusterAnnotationView {
         case .image:
             layer.borderWidth = 0
         case .color:
-            layer.borderColor = borderColor.cgColor
+//            layer.borderColor = borderColor.cgColor
             layer.borderWidth = 2
         }
     }

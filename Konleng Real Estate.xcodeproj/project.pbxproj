@@ -10,13 +10,14 @@
 		4577CF09909DED26276F755D /* Pods_Konleng_Real_Estate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31F4A6A735BC4A6E3BF10544 /* Pods_Konleng_Real_Estate.framework */; };
 		9223B1B7DC7357E965246C67 /* Pods_Konleng_Real_EstateUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6187ABE02DB37DDDFB3030A2 /* Pods_Konleng_Real_EstateUITests.framework */; };
 		F2BA3A258C45519DD4391A15 /* Pods_Konleng_Real_EstateTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C744F028AC2A7EED8F89FB7 /* Pods_Konleng_Real_EstateTests.framework */; };
+		FA1DDD3F202FB248003A0FCC /* CustomCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1DDD3E202FB248003A0FCC /* CustomCells.swift */; };
+		FA1DDD42202FB32F003A0FCC /* FloatLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1DDD41202FB32F003A0FCC /* FloatLabelTextField.swift */; };
 		FA3BE2022025FACF00E56BDA /* SearchParentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3BE2012025FACF00E56BDA /* SearchParentViewController.swift */; };
 		FA3BE2042025FB4400E56BDA /* MapChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3BE2032025FB4400E56BDA /* MapChildViewController.swift */; };
 		FA3BE2062025FB5000E56BDA /* ListChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3BE2052025FB5000E56BDA /* ListChildViewController.swift */; };
 		FA5739772023546700906AC5 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5739762023546700906AC5 /* SearchViewController.swift */; };
-		FA5739812023631B00906AC5 /* SellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5739802023631B00906AC5 /* SellViewController.swift */; };
-		FA5739832023632A00906AC5 /* RentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5739822023632A00906AC5 /* RentViewController.swift */; };
 		FA81DCDE2025F4EE009C353B /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA81DCDD2025F4EE009C353B /* MapViewController.swift */; };
+		FA846B7F203741B800CD3909 /* FormTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA846B7E203741B800CD3909 /* FormTableViewCell.swift */; };
 		FAA12CF22019EAFF00A2769C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA12CF12019EAFF00A2769C /* AppDelegate.swift */; };
 		FAA12CF42019EAFF00A2769C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA12CF32019EAFF00A2769C /* ViewController.swift */; };
 		FAA12CF72019EAFF00A2769C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA12CF52019EAFF00A2769C /* Main.storyboard */; };
@@ -24,7 +25,12 @@
 		FAA12CFC2019EAFF00A2769C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA12CFA2019EAFF00A2769C /* LaunchScreen.storyboard */; };
 		FAA12D072019EAFF00A2769C /* Konleng_Real_EstateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA12D062019EAFF00A2769C /* Konleng_Real_EstateTests.swift */; };
 		FAA12D122019EAFF00A2769C /* Konleng_Real_EstateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA12D112019EAFF00A2769C /* Konleng_Real_EstateUITests.swift */; };
+		FAA7FED8202EA8BF00CD7B9B /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA7FED7202EA8BF00CD7B9B /* FilterViewController.swift */; };
 		FAD17B6C2024623B000DE990 /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD17B6B2024623B000DE990 /* UploadViewController.swift */; };
+		FADD2DE4202FF964000DE998 /* CustomPhotoPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADD2DE3202FF964000DE998 /* CustomPhotoPickerViewController.swift */; };
+		FADD2DE6202FFD30000DE998 /* SavedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADD2DE5202FFD30000DE998 /* SavedViewController.swift */; };
+		FAE6F19F2036E0B900404F0E /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE6F19E2036E0B900404F0E /* Person.swift */; };
+		FAFA8ADC20367F970051A734 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFA8ADB20367F970051A734 /* ImageCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,13 +60,14 @@
 		987D9FBB7371C03E6ADA4CFB /* Pods-Konleng Real EstateUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Konleng Real EstateUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Konleng Real EstateUITests/Pods-Konleng Real EstateUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		AFD67C71D739113319F002E3 /* Pods-Konleng Real EstateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Konleng Real EstateTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Konleng Real EstateTests/Pods-Konleng Real EstateTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C69B17D6FFDE5CD0B41205F3 /* Pods-Konleng Real EstateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Konleng Real EstateTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Konleng Real EstateTests/Pods-Konleng Real EstateTests.release.xcconfig"; sourceTree = "<group>"; };
+		FA1DDD3E202FB248003A0FCC /* CustomCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCells.swift; sourceTree = "<group>"; };
+		FA1DDD41202FB32F003A0FCC /* FloatLabelTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatLabelTextField.swift; sourceTree = "<group>"; };
 		FA3BE2012025FACF00E56BDA /* SearchParentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchParentViewController.swift; sourceTree = "<group>"; };
 		FA3BE2032025FB4400E56BDA /* MapChildViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapChildViewController.swift; sourceTree = "<group>"; };
 		FA3BE2052025FB5000E56BDA /* ListChildViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListChildViewController.swift; sourceTree = "<group>"; };
 		FA5739762023546700906AC5 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
-		FA5739802023631B00906AC5 /* SellViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellViewController.swift; sourceTree = "<group>"; };
-		FA5739822023632A00906AC5 /* RentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentViewController.swift; sourceTree = "<group>"; };
 		FA81DCDD2025F4EE009C353B /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		FA846B7E203741B800CD3909 /* FormTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormTableViewCell.swift; sourceTree = "<group>"; };
 		FAA12CEE2019EAFF00A2769C /* Konleng Real Estate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Konleng Real Estate.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA12CF12019EAFF00A2769C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAA12CF32019EAFF00A2769C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,9 +81,14 @@
 		FAA12D0D2019EAFF00A2769C /* Konleng Real EstateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Konleng Real EstateUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA12D112019EAFF00A2769C /* Konleng_Real_EstateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Konleng_Real_EstateUITests.swift; sourceTree = "<group>"; };
 		FAA12D132019EAFF00A2769C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA7FED7202EA8BF00CD7B9B /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
 		FAD17B6B2024623B000DE990 /* UploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
 		FAD17B6E20246AEF000DE990 /* Cluster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Cluster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAD17B7020246AF4000DE990 /* XLPagerTabStrip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = XLPagerTabStrip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FADD2DE3202FF964000DE998 /* CustomPhotoPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPhotoPickerViewController.swift; sourceTree = "<group>"; };
+		FADD2DE5202FFD30000DE998 /* SavedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedViewController.swift; sourceTree = "<group>"; };
+		FAE6F19E2036E0B900404F0E /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		FAFA8ADB20367F970051A734 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +144,14 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		FA1DDD40202FB31E003A0FCC /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				FA1DDD41202FB32F003A0FCC /* FloatLabelTextField.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		FAA12CE52019EAFF00A2769C = {
 			isa = PBXGroup;
 			children = (
@@ -157,20 +177,26 @@
 		FAA12CF02019EAFF00A2769C /* Konleng Real Estate */ = {
 			isa = PBXGroup;
 			children = (
+				FAE6F19D2036E0A100404F0E /* Models */,
+				FA1DDD40202FB31E003A0FCC /* Helpers */,
 				FAA12CF12019EAFF00A2769C /* AppDelegate.swift */,
 				FAA12CF32019EAFF00A2769C /* ViewController.swift */,
 				FAA12CF52019EAFF00A2769C /* Main.storyboard */,
 				FA5739762023546700906AC5 /* SearchViewController.swift */,
 				FAA12CF82019EAFF00A2769C /* Assets.xcassets */,
+				FAFA8ADB20367F970051A734 /* ImageCollectionViewCell.swift */,
 				FAA12CFA2019EAFF00A2769C /* LaunchScreen.storyboard */,
 				FAA12CFD2019EAFF00A2769C /* Info.plist */,
-				FA5739802023631B00906AC5 /* SellViewController.swift */,
-				FA5739822023632A00906AC5 /* RentViewController.swift */,
 				FAD17B6B2024623B000DE990 /* UploadViewController.swift */,
+				FA846B7E203741B800CD3909 /* FormTableViewCell.swift */,
 				FA81DCDD2025F4EE009C353B /* MapViewController.swift */,
 				FA3BE2012025FACF00E56BDA /* SearchParentViewController.swift */,
 				FA3BE2032025FB4400E56BDA /* MapChildViewController.swift */,
 				FA3BE2052025FB5000E56BDA /* ListChildViewController.swift */,
+				FAA7FED7202EA8BF00CD7B9B /* FilterViewController.swift */,
+				FA1DDD3E202FB248003A0FCC /* CustomCells.swift */,
+				FADD2DE3202FF964000DE998 /* CustomPhotoPickerViewController.swift */,
+				FADD2DE5202FFD30000DE998 /* SavedViewController.swift */,
 			);
 			path = "Konleng Real Estate";
 			sourceTree = "<group>";
@@ -191,6 +217,14 @@
 				FAA12D132019EAFF00A2769C /* Info.plist */,
 			);
 			path = "Konleng Real EstateUITests";
+			sourceTree = "<group>";
+		};
+		FAE6F19D2036E0A100404F0E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FAE6F19E2036E0B900404F0E /* Person.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -403,11 +437,29 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Konleng Real Estate/Pods-Konleng Real Estate-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Cluster/Cluster.framework",
+				"${BUILT_PRODUCTS_DIR}/Eureka/Eureka.framework",
+				"${BUILT_PRODUCTS_DIR}/ImageSlideshow/ImageSlideshow.framework",
+				"${BUILT_PRODUCTS_DIR}/Material/Material.framework",
+				"${BUILT_PRODUCTS_DIR}/Motion/Motion.framework",
+				"${BUILT_PRODUCTS_DIR}/RSSelectionMenu/RSSelectionMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftChart/SwiftChart.framework",
+				"${BUILT_PRODUCTS_DIR}/TLPhotoPicker/TLPhotoPicker.framework",
+				"${BUILT_PRODUCTS_DIR}/ViewRow/ViewRow.framework",
 				"${BUILT_PRODUCTS_DIR}/XLPagerTabStrip/XLPagerTabStrip.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cluster.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Eureka.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImageSlideshow.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Material.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Motion.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RSSelectionMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftChart.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TLPhotoPicker.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ViewRow.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XLPagerTabStrip.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -488,15 +540,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAE6F19F2036E0B900404F0E /* Person.swift in Sources */,
 				FA5739772023546700906AC5 /* SearchViewController.swift in Sources */,
 				FAD17B6C2024623B000DE990 /* UploadViewController.swift in Sources */,
+				FA1DDD3F202FB248003A0FCC /* CustomCells.swift in Sources */,
 				FAA12CF42019EAFF00A2769C /* ViewController.swift in Sources */,
 				FA3BE2062025FB5000E56BDA /* ListChildViewController.swift in Sources */,
-				FA5739812023631B00906AC5 /* SellViewController.swift in Sources */,
+				FAA7FED8202EA8BF00CD7B9B /* FilterViewController.swift in Sources */,
 				FA3BE2022025FACF00E56BDA /* SearchParentViewController.swift in Sources */,
 				FA3BE2042025FB4400E56BDA /* MapChildViewController.swift in Sources */,
-				FA5739832023632A00906AC5 /* RentViewController.swift in Sources */,
+				FA846B7F203741B800CD3909 /* FormTableViewCell.swift in Sources */,
 				FAA12CF22019EAFF00A2769C /* AppDelegate.swift in Sources */,
+				FA1DDD42202FB32F003A0FCC /* FloatLabelTextField.swift in Sources */,
+				FAFA8ADC20367F970051A734 /* ImageCollectionViewCell.swift in Sources */,
+				FADD2DE6202FFD30000DE998 /* SavedViewController.swift in Sources */,
+				FADD2DE4202FF964000DE998 /* CustomPhotoPickerViewController.swift in Sources */,
 				FA81DCDE2025F4EE009C353B /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
